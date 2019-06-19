@@ -108,11 +108,11 @@ class App extends Component {
     return (
       <div>
         {/* NAVIGATION */}
-        <nav className="light-blue darken-4">
+        <nav className="deep-orange lighten-2">
           <div className="container">
             <div className="nav-wrapper">
               <a href="#" className="brand-logo">
-                MERN Stack
+                Burger Queen backend
               </a>
             </div>
           </div>
@@ -126,6 +126,7 @@ class App extends Component {
                   <form onSubmit={this.addTask}>
                     <div className="row">
                       <div className="input-field col s12">
+                      <i class="material-icons ">room_service</i>
                         <input
                           name="title"
                           onChange={this.handleChange}
@@ -150,7 +151,7 @@ class App extends Component {
                       </div>
                     </div>
 
-                    <button type="submit" className="btn light-blue darken-4">
+                    <button type="submit" className="btn light-blue lighten-1">
                       Send
                     </button>
                   </form>

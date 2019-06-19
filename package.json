@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "webpack": "webpack --mode development"
+    "webpack": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -25,7 +26,18 @@
   },
   "homepage": "https://github.com/KarlyVall/GDL002-burger-queen-backend#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "loader": "^2.1.1",
     "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4"
   }
