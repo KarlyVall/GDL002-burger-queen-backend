@@ -1,44 +1,22 @@
 {
-  "name": "GDL002-burger-queen-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "burger-queen-backend",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "webpack": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.6.0",
-    "morgan": "^1.9.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KarlyVall/GDL002-burger-queen-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KarlyVall/GDL002-burger-queen-backend/issues"
-  },
-  "homepage": "https://github.com/KarlyVall/GDL002-burger-queen-backend#readme",
-  "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel": "^6.23.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "loader": "^2.1.1",
-    "nodemon": "^1.19.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4"
+    "bcrypt-nodejs": "0.0.3",
+    "cookie-parser": "~1.4.4",
+    "csurf": "^1.10.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.6.1",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.0"
   }
 }
